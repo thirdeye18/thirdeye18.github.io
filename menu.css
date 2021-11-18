@@ -1,0 +1,32 @@
+a:link,
+a:visited {
+  color: #5D6063;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.nav-menu {
+  position: fixed;
+  display: flex;
+
+  justify-content: center;
+
+  width: 100%;
+  padding: 25px;
+  background: #F5F5F5;
+}
+
+.menu {
+  margin-top: 15px;
+}
+
+.menu > li {
+  display: inline;
+  margin-right: 50px;
+}
+
+.menu > li:last-of-type {
+  margin-right: 0;
+}
